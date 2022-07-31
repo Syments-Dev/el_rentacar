@@ -1,0 +1,1 @@
+--Not: playerid yazılı olan idyi çeker vehicleid araç idsi time oyuncunun yazdığı süre bunun için söyle bir şey yapabilirsin time*1000 gibi price ise kiraya verilecek fiyat

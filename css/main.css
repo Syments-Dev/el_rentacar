@@ -1,0 +1,167 @@
+body {
+    background: transparent;
+  }
+  
+.ana {
+  position: relative;
+  background-color: rgb(37, 37, 37);
+  margin-top: 13%;
+  margin-left: 25%;
+  width: 50%;
+  height: 390px;
+  border-radius: 60px;
+}
+
+
+.logobolum {
+    z-index: 1;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+  
+}
+.logo {
+  position: static;
+  z-index: 1;
+  height: 200px;
+  left: 43%;
+  margin-top: -70%;
+}
+
+.icerik {
+
+  width: 95%;
+  height: 80%;
+  margin: auto;
+  margin-top: -20%;
+}
+
+.ibox {
+  width: 90%;
+  height: 80%;
+  margin: auto;
+}
+.ibox-l{
+  width: 50%;
+  height: 70%;
+  float: left;
+}
+.ibox-r{
+  width: 50%;
+  height: 70%;
+  float: right;
+}
+
+.uyarı {
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 20%;
+  margin: auto;
+  margin-top: 3%;
+  border-radius: 20px;
+}
+
+.ic {
+  margin: auto;
+  margin-top: 15%;
+  width: 80%;
+  height: 20%;
+}
+
+input {
+  font-family: 'Lato', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  font-size: 15px;
+  border-width: 1px;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 0px;
+  text-align: center;
+  transition: all 1s;
+}
+input:hover {
+  transition: all 1s;
+  box-shadow: 0px 0px 50px rgb(0, 0, 0)
+}
+
+.onay {
+  width: 102%;
+  font-family: 'Lato', sans-serif;;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+  border: none;
+  font-size: 20px;
+  background-color: rgb(110, 85, 0);
+  transition: all 1s;
+  color: white;
+}
+
+.onay:hover {
+  transition: all 1s;
+  background-color: rgb(5, 65, 0);
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.75);
+}
+
+.deonay {
+  width: 102%;
+  font-family: 'Lato', sans-serif;;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+  border: none;
+  font-size: 20px;
+  background-color: rgb(110, 85, 0);
+  transition: all 1s;
+  color: white;
+}
+
+.deonay:hover {
+  transition: all 1s;
+  background-color: rgb(66, 0, 0);
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.75);
+}
+
+.uyar {
+  position: static;
+  border-radius: 10px;
+  background-color: transparent;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  font-size: 40px;
+  font-family: monospace;
+  color: #ffffff;
+  float: left;
+  transition: all 2s;
+}
+
+
+.uyar1 {
+  width: 80%;
+  float: left;
+  color: rgb(255, 255, 255);
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+p {
+  margin-top: 6%;
+  font-family: monospace;
+}
+
+strong {
+  font-family: 'Lato', sans-serif;;
+  color: rgb(110, 85, 0);
+  font-size: 20px;
+  text-align: center;
+
+}

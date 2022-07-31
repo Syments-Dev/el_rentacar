@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     </body>    
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+        </style>
+        
+<body>
+<div class="ana">
+    <div class="logobolum">
+        <img src="elance_logo.png" class="logo">
+        
+    </div>
+
+    <!--İÇERİK SATIRI ( BU BÖLÜMDE İNPUT BOX,BUTTON BULUNMAKTA)-->
+    <div class="icerik">
+        <div class="ibox">
+            <div class="ibox-l">
+                <div class="ic">
+                    <label for="text-7167" class="u-form-control-hidden u-label"></label>
+                    <input type="text" placeholder="OYUNCU ISMI" id="playerid" name="text" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-input-1">
+                </div>
+                
+                <div class="ic">
+                    <label for="text-868a" class="u-form-control-hidden u-label"></label>
+                    <input type="number" placeholder="ARAÇ ID" id="vehicleid" name="text-1" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-input-2">                </div>
+                <div class="ic">
+                    <button class="deonay" onclick="mta.triggerEvent('close');">Paneli Kapat</button>
+                </div>
+            </div>
+
+            
+            <div class="ibox-r">
+                <div class="ic">
+                    <label for="text-771b" class="u-form-control-hidden u-label"></label>
+                    <input type="number" placeholder="SURE - SAAT" id="time" name="text-2" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-input-3">                </div>
+                <div class="ic">
+                    <label for="text-3805" class="u-form-control-hidden u-label"></label>
+                    <input type="number" placeholder="FIYAT MIKTARI" id="price"  name="text-3" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-input-4"></div>
+                    <div class="ic">
+                        <div class="u-align-center u-form-group u-form-submit">
+                        <a href="#" onclick="mta.triggerEvent('rac:rent',document.getElementById('playerid').value,document.getElementById('vehicleid').value,document.getElementById('time').value,document.getElementById('price').value)" <br>
+                        </a>
+                            <button class="onay" onclick="mta.triggerEvent('rac:rent',document.getElementById('playerid').value,document.getElementById('vehicleid').value,document.getElementById('time').value,document.getElementById('price').value)">Onayla</button>       
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <center><strong>Elance Roleplay | Araç Kiralama Sistemi </strong></center>
+    </div>
+</div>                       
+<script src="js/mtaevents.js"></script>
+<script src="js/uikit.min.js"></script>
+</body>
+</html>
+                
